@@ -1,14 +1,18 @@
-body {
-  font-family: monospace;
-  background-color: navajowhite;
+.formgroup {
+  background-color: #88D1EC;
 }
 
-.red {
-  background-color: red;
-  height: 150px;
+header {
+  background-image: url(http://i86.servimg.com/u/f86/13/27/80/65/img_2019.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100%;
 }
 
-.blue {
-  background-color: blue;
-  height: 150px;
+h1 {
+  font-size: 5em;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Arial';
+  color: #B49F9F;
 }
