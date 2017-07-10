@@ -1,12 +1,12 @@
 .formgroup {
-  background-color: #88D1EC;
+  background-color: #CFDAE6;
+  padding: 1em 4em 1em 4em;
+  height: 500px;
 }
-
 header {
-  background-image: url(http://i86.servimg.com/u/f86/13/27/80/65/img_2019.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 100%;
+  text-align: center;
+  background-image: image(img/img_2019.jpg);
+
 }
 
 h1 {
@@ -14,5 +14,27 @@ h1 {
   text-align: center;
   text-transform: uppercase;
   font-family: 'Arial';
-  color: #B49F9F;
+  color: #241A1A;
+}
+
+body {
+  background-color: #E73333;
+}
+
+.centered {
+  text-align: center;
+}
+
+button {
+  height: 2em;
+  width: 5em;
+}
+
+.star {
+  color: red;
+}
+
+#heroes {
+  height: 1500px;
+  font-size: 2em;
 }

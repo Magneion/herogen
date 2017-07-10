@@ -16,13 +16,31 @@
     </header>
     <form>
       <div class="row">
-      <div class="formgroup">
+      <div class="formgroup col-md-6 col-sm-12">
+        <h2> État Civil </h2>
         <label for="name">Héros<span class="star">*</span></label>
         <input type="text" id="name" name="name" placeholder="Captain America" class="form-control"required />
         <label for="realid">Identité réelle</label>
         <input type="text" id="realid" name="realid" placeholder="Steve Rogers" class="form-control" />
+        <label for="alig">Alignement</label>
+        <div>
+          <select name="alignment" id="alig">
+            <option value="">Sélectionnez</option>
+            <option value="1">Chaotique Neutre</option>
+            <option value="2">Loyal Neutre</option>
+            <option value="3">Chaotique Bon</option>
+            <option value="4">Loyal Bon</option>
+            <option value="5">Chaotique Mauvais</option>
+            <option value="6">Loyal Mauvais</option>
+            <option value="7">Neutre Neutre</option>
+          </select>
+        </div>
       </div> <!--group-->
-      <div class="formgroup">
+      <div class="formgroup col-md-6 col-sm-12">
+        <h2> Caractéristiques </h2>
+        <span id="helpBlock" class="help-block">
+        Vous avez 100 points à répartir dans ces trois caractéristiques.
+        </span>
         <label for="dex">Agilité<span class="star">*</span></label>
         <input type="number" id="dex" name="dexterity" placeholder="30" class="form-control"required />
         <label for="con">Endurance<span class="star">*</span></label>
@@ -30,6 +48,11 @@
         <label for="str">Force<span class="star">*</span></label>
         <input type="number" id="str" name="strength" placeholder="30" class="form-control"required />
       </div> <!--group-->
+    </div> <!--row-->
+    <div class="row">
+      <div class="centered">
+        <button onClick="creation()"> Valider </button>
+      </div>
     </div> <!--row-->
     </form>
     <div id="heroes">
